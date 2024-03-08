@@ -1,0 +1,11 @@
+.custom-form {
+	margin: 20px;
+}
+
+.custom-input {
+	padding: 10px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	width: 300px;
+}
