@@ -1,11 +1,29 @@
-.custom-form {
-	margin: 20px;
+.form-container {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
-.custom-input {
+.todo-form {
+	background-color: #333;
+	padding: 10px;
+	height: 70vh;
+	width: 60vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	overflow: scroll;
+}
+
+.todo-form > * {
 	padding: 10px;
 	font-size: 16px;
-	border: 1px solid #ccc;
 	border-radius: 5px;
-	width: 300px;
+	border: 1px solid #ccc;
+	text-align: center;
+	height: auto;
+	width: 100%;
 }
